@@ -44,16 +44,20 @@ id: moodle
 **4. Git Repository auf dem Lokalen Rechner klonen** <br>
 
 ```
-git clone git@github.com:mohamed444789/moodle.git
+git clone git@github.com:mohamed444789/moodle-salt.git
 ```
 
 
 **5. Dateien auf dem Ordner /srv/salt für Saltstack kopieren** <br>
 
 ```
-cp -r moodle/* /srv/salt
+cp -r moodle-salt/* /srv/salt
 ```
-**6. Moodle mit Saltstack installieren** <br>
+
+
+**6. Google SuchID und APIkey für Plugin hinzufügen** <br>
+
+**7. Moodle mit Saltstack installieren** <br>
 
 ```
 sudo salt 'moodle' state.apply moodle
