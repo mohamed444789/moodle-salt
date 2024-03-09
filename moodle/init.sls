@@ -172,5 +172,5 @@ restart_postgresql:
 #Zertifikat installieren
 letsencrypt_cert:
   cmd.run:
-    - name: certbot --nginx --agree-tos -d at30.de
+    - name: certbot --nginx --agree-tos -d at30.de --email deineEamil@email.com
     - unless: test -f /etc/letsencrypt/live/at30.de/fullchain.pem
