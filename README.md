@@ -55,7 +55,7 @@ cp -r moodle-salt/* /srv/salt
 ```
 
 
-**6. Google SuchID und APIkey für Plugin hinzufügen** <br>
+**6. Google SuchID,APIkey für Plugin und Email Adresse für Let's Encrypt Zertifikat hinzufügen.** <br>
 
 **7. Moodle mit Saltstack installieren** <br>
 
